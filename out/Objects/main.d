@@ -5,3 +5,7 @@
 .\objects\main.o: C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h
 .\objects\main.o: C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h
 .\objects\main.o: C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h
+.\objects\main.o: ..\src\ADC.h
+.\objects\main.o: ..\src\send.h
+.\objects\main.o: ..\src\Calculation.h
+.\objects\main.o: ..\src\LCD.h

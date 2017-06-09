@@ -397,6 +397,46 @@
               <FileType>5</FileType>
               <FilePath>..\src\ADC.h</FilePath>
             </File>
+            <File>
+              <FileName>send.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\send.c</FilePath>
+            </File>
+            <File>
+              <FileName>send.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\send.h</FilePath>
+            </File>
+            <File>
+              <FileName>Calculation.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\Calculation.c</FilePath>
+            </File>
+            <File>
+              <FileName>Calculation.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\Calculation.h</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\key.h</FilePath>
+            </File>
+            <File>
+              <FileName>LCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\LCD.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\LCD.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

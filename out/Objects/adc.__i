@@ -1,6 +1,0 @@
--c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src
--I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE
--I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include
--I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
--D__UVISION_VERSION="520" -D_RTE_
--o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d "..\src\ADC.c"

@@ -22,20 +22,55 @@ Dialog DLL:      TARMCM1.DLL V1.10.0.0
  
 <h2>Project:</h2>
 C:\Users\leovo\Desktop\study\danpianji\project\out\project.uvprojx
-Project File Date:  05/26/2017
+Project File Date:  06/08/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\Bin'
-Rebuild target 'Target 1'
+Rebuild target 'final project'
 assembling startup_LPC11xx.s...
-compiling system_LPC11xx.c...
 compiling main.c...
-..\src\main.c(5): warning:  #1-D: last line of file ends without a newline
+..\src\send.h(5): warning:  #1-D: last line of file ends without a newline
+  void delay(void);
+..\src\Calculation.h(2): warning:  #1-D: last line of file ends without a newline
+  void measure();
+..\src\Calculation.h(2): warning:  #1295-D: Deprecated declaration measure - give arg types
+  void measure();
+..\src\LCD.h(4): warning:  #1295-D: Deprecated declaration Busy_Check - give arg types
+  uint8_t Busy_Check();
+..\src\LCD.h(10): warning:  #1-D: last line of file ends without a newline
+  void InitLCD();
+..\src\LCD.h(10): warning:  #1295-D: Deprecated declaration InitLCD - give arg types
+  void InitLCD();
+..\src\main.c: 6 warnings, 0 errors
+compiling LCD.c...
+compiling Calculation.c...
+..\src\send.h(5): warning:  #1-D: last line of file ends without a newline
+  void delay(void);
+..\src\Calculation.c(60): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf (mea,"NOW=%d'C",T); 
+..\src\Calculation.c(64): warning:  #1-D: last line of file ends without a newline
+  	}
+..\src\Calculation.c: 3 warnings, 0 errors
+compiling key.c...
+..\src\send.h(5): warning:  #1-D: last line of file ends without a newline
+  void delay(void);
+..\src\key.c(49): warning:  #1-D: last line of file ends without a newline
   }
-..\src\main.c: 1 warning, 0 errors
+..\src\key.c: 2 warnings, 0 errors
+compiling ADC.c...
+..\src\ADC.c(24): warning:  #1-D: last line of file ends without a newline
+  	
+..\src\ADC.c: 1 warning, 0 errors
+compiling send.c...
+..\src\send.c(47): warning:  #1-D: last line of file ends without a newline
+  }	
+..\src\send.c: 1 warning, 0 errors
+compiling system_LPC11xx.c...
 linking...
-Program Size: Code=464 RO-data=304 RW-data=0 ZI-data=608  
-".\Objects\project.axf" - 0 Error(s), 1 Warning(s).
+.\Objects\project.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+".\Objects\project.axf" - 1 Error(s), 13 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -63,6 +98,7 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_LPC11xx.s
       Source file:   Device\Source\system_LPC11xx.c
+Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>
