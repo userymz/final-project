@@ -17,7 +17,7 @@ Library Manager: ArmAr.exe V5.06 update 2 (build 183)
 Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
 CPU DLL:         SARMCM3.DLL V5.20
 Dialog DLL:      DARMCM1.DLL V1.14.0.0
-Target DLL:      UL2CM3.DLL V1.157.18.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
 Dialog DLL:      TARMCM1.DLL V1.10.0.0
  
 <h2>Project:</h2>
@@ -28,49 +28,77 @@ Project File Date:  06/08/2017
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\Bin'
 Rebuild target 'final project'
 assembling startup_LPC11xx.s...
-compiling main.c...
-..\src\send.h(5): warning:  #1-D: last line of file ends without a newline
-  void delay(void);
-..\src\Calculation.h(2): warning:  #1-D: last line of file ends without a newline
-  void measure();
-..\src\Calculation.h(2): warning:  #1295-D: Deprecated declaration measure - give arg types
-  void measure();
-..\src\LCD.h(4): warning:  #1295-D: Deprecated declaration Busy_Check - give arg types
-  uint8_t Busy_Check();
-..\src\LCD.h(10): warning:  #1-D: last line of file ends without a newline
-  void InitLCD();
-..\src\LCD.h(10): warning:  #1295-D: Deprecated declaration InitLCD - give arg types
-  void InitLCD();
-..\src\main.c: 6 warnings, 0 errors
-compiling LCD.c...
-compiling Calculation.c...
-..\src\send.h(5): warning:  #1-D: last line of file ends without a newline
-  void delay(void);
-..\src\Calculation.c(60): warning:  #223-D: function "sprintf" declared implicitly
-  			sprintf (mea,"NOW=%d'C",T); 
-..\src\Calculation.c(64): warning:  #1-D: last line of file ends without a newline
-  	}
-..\src\Calculation.c: 3 warnings, 0 errors
-compiling key.c...
-..\src\send.h(5): warning:  #1-D: last line of file ends without a newline
-  void delay(void);
-..\src\key.c(49): warning:  #1-D: last line of file ends without a newline
-  }
-..\src\key.c: 2 warnings, 0 errors
 compiling ADC.c...
 ..\src\ADC.c(24): warning:  #1-D: last line of file ends without a newline
   	
 ..\src\ADC.c: 1 warning, 0 errors
+compiling key.c...
+..\src\send.h(11): warning:  #1-D: last line of file ends without a newline
+  void delay(void);
+..\src\key.h(8): warning:  #1295-D: Deprecated declaration SEGinit - give arg types
+  void SEGinit();
+..\src\key.h(9): warning:  #1295-D: Deprecated declaration KEYinit - give arg types
+  void KEYinit();
+..\src\key.h(10): warning:  #1295-D: Deprecated declaration BreakInit - give arg types
+  void BreakInit();
+..\src\key.h(11): warning:  #1295-D: Deprecated declaration PIONT1_TRQHandler - give arg types
+  void PIONT1_TRQHandler();
+..\src\key.c(56): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\key.c: 6 warnings, 0 errors
+compiling main.c...
+..\src\send.h(11): warning:  #1-D: last line of file ends without a newline
+  void delay(void);
+..\src\Calculation.h(8): warning:  #1-D: last line of file ends without a newline
+  void measure();
+..\src\Calculation.h(8): warning:  #1295-D: Deprecated declaration measure - give arg types
+  void measure();
+..\src\LCD.h(10): warning:  #1295-D: Deprecated declaration Busy_Check - give arg types
+  uint8_t Busy_Check();
+..\src\LCD.h(16): warning:  #1-D: last line of file ends without a newline
+  void InitLCD();
+..\src\LCD.h(16): warning:  #1295-D: Deprecated declaration InitLCD - give arg types
+  void InitLCD();
+..\src\key.h(8): warning:  #1295-D: Deprecated declaration SEGinit - give arg types
+  void SEGinit();
+..\src\key.h(9): warning:  #1295-D: Deprecated declaration KEYinit - give arg types
+  void KEYinit();
+..\src\key.h(10): warning:  #1295-D: Deprecated declaration BreakInit - give arg types
+  void BreakInit();
+..\src\key.h(11): warning:  #1295-D: Deprecated declaration PIONT1_TRQHandler - give arg types
+  void PIONT1_TRQHandler();
+..\src\main.c(27): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  LCD_DisplayStr(0,0, mea);
+..\src\main.c(30): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\main.c: 12 warnings, 0 errors
+compiling LCD.c...
+compiling Calculation.c...
+..\src\send.h(11): warning:  #1-D: last line of file ends without a newline
+  void delay(void);
+..\src\Calculation.c(63): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if(counter>=0)
+..\src\Calculation.c(64): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  			sprintf (mea,"NOW=%.2f'C",T,counter);
+..\src\Calculation.c(64): warning:  #225-D: the format string ends before this argument
+  			sprintf (mea,"NOW=%.2f'C",T,counter);
+..\src\Calculation.c(66): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  			sprintf (mea,"NOW=%.2f'F",F,counter);
+..\src\Calculation.c(66): warning:  #225-D: the format string ends before this argument
+  			sprintf (mea,"NOW=%.2f'F",F,counter);
+..\src\Calculation.c(68): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  		sprintf(sendpc ,"NOW=%fMV\r\n",res);
+..\src\Calculation.c(73): warning:  #1-D: last line of file ends without a newline
+  	}
+..\src\Calculation.c: 8 warnings, 0 errors
+compiling system_LPC11xx.c...
 compiling send.c...
 ..\src\send.c(47): warning:  #1-D: last line of file ends without a newline
   }	
 ..\src\send.c: 1 warning, 0 errors
-compiling system_LPC11xx.c...
 linking...
-.\Objects\project.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
-Not enough information to list image symbols.
-Finished: 1 information, 0 warning and 1 error messages.
-".\Objects\project.axf" - 1 Error(s), 13 Warning(s).
+Program Size: Code=1968 RO-data=224 RW-data=8 ZI-data=648  
+".\Objects\project.axf" - 0 Error(s), 28 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -98,7 +126,6 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_LPC11xx.s
       Source file:   Device\Source\system_LPC11xx.c
-Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

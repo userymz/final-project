@@ -9,3 +9,4 @@
 .\objects\main.o: ..\src\send.h
 .\objects\main.o: ..\src\Calculation.h
 .\objects\main.o: ..\src\LCD.h
+.\objects\main.o: ..\src\key.h

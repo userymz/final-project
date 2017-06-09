@@ -7,9 +7,12 @@
 #include "LPC11xx.h"                    // Device header
 #include "send.h"
 #include "ADC.h"
+#include"stdio.h"
+extern uint8_t counter;
 uint16_t  T;
 uint16_t  F;
 char mea[20];
+char sendpc[20];
 void measure()
 {
 	uint32_t i;
@@ -57,8 +60,14 @@ void measure()
 			 T=37+(6357-res)/200;
 			
 			F=37+T*1.8;
-			sprintf (mea,"NOW=%d'C",T); 
+		if(counter>=0)
+			sprintf (mea,"NOW=%.2f'C",T,counter);
+		else
+			sprintf (mea,"NOW=%.2f'F",F,counter);
 		
-}
-	
+		sprintf(sendpc ,"NOW=%fMV\r\n",res);
+		
+		
+
+		}
 	}

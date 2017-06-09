@@ -7,3 +7,4 @@
 .\objects\calculation.o: C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h
 .\objects\calculation.o: ..\src\send.h
 .\objects\calculation.o: ..\src\ADC.h
+.\objects\calculation.o: C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\Bin\..\include\stdio.h
