@@ -1,54 +1,54 @@
 Dependencies for Project 'project', Target 'final project': (DO NOT MODIFY !)
-F (..\src\main.c)(0x5939FB01)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\src\main.c)(0x593FAAF8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
 I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-I (..\src\ADC.h)(0x59394C9A)
-I (..\src\send.h)(0x5939F175)
-I (..\src\Calculation.h)(0x5939F175)
-I (..\src\LCD.h)(0x5939F175)
-I (..\src\key.h)(0x5939FB43)
-F (..\src\ADC.c)(0x59394C9A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
-I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-F (..\src\ADC.h)(0x59394C9A)()
-F (..\src\send.c)(0x59394C9A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\send.o --omf_browse .\objects\send.crf --depend .\objects\send.d)
-I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-F (..\src\send.h)(0x5939F175)()
-F (..\src\Calculation.c)(0x5939F84A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\calculation.o --omf_browse .\objects\calculation.crf --depend .\objects\calculation.d)
-I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-I (..\src\send.h)(0x5939F175)
-I (..\src\ADC.h)(0x59394C9A)
+I (..\src\ADC.h)(0x593D44C7)
+I (..\src\send.h)(0x593D44F0)
+I (..\src\Calculation.h)(0x593D4515)
+I (..\src\LCD.h)(0x593D4558)
+I (..\src\key.h)(0x593FAA2E)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-F (..\src\Calculation.h)(0x5939F175)()
-F (..\src\key.c)(0x5939FB01)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+F (..\src\ADC.c)(0x593D463D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
 I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
 I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-I (..\src\send.h)(0x5939F175)
-I (..\src\key.h)(0x5939FB43)
-F (..\src\key.h)(0x5939FB43)()
-F (..\src\LCD.c)(0x5939617B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (..\src\ADC.h)(0x593D44C7)
+F (..\src\send.c)(0x593D483F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\send.o --omf_browse .\objects\send.crf --depend .\objects\send.d)
+I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (..\src\send.h)(0x593D44F0)
+F (..\src\Calculation.c)(0x593FAB1D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\calculation.o --omf_browse .\objects\calculation.crf --depend .\objects\calculation.d)
+I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (..\src\calculation.h)(0x593D4515)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\src\key.c)(0x593FAA2E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (..\src\send.h)(0x593D44F0)
+I (..\src\key.h)(0x593FAA2E)
+I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\src\LCD.h)(0x593D4558)
+F (..\src\LCD.c)(0x593D4628)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
 I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)
@@ -56,7 +56,7 @@ I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\c
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
 I (C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\string.h)(0x56FE42DE)
-F (..\src\LCD.h)(0x5939F175)()
+I (..\src\LCD.h)(0x593D4558)
 F (RTE\Device\LPC1114FBD48_301\startup_LPC11xx.s)(0x4CF35218)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
 F (RTE\Device\LPC1114FBD48_301\system_LPC11xx.c)(0x4CF35218)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src-I C:\Users\leovo\Desktop\study\danpianji\project\out\RTE-I C:\Users\leovo\Desktop\study\danpianji\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
 I (C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\include\stdint.h)(0x59376FDE)

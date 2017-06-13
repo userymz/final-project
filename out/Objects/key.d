@@ -7,3 +7,5 @@
 .\objects\key.o: C:\Users\leovo\Desktop\study\danpianji\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h
 .\objects\key.o: ..\src\send.h
 .\objects\key.o: ..\src\key.h
+.\objects\key.o: C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\key.o: ..\src\LCD.h

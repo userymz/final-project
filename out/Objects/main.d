@@ -10,3 +10,4 @@
 .\objects\main.o: ..\src\Calculation.h
 .\objects\main.o: ..\src\LCD.h
 .\objects\main.o: ..\src\key.h
+.\objects\main.o: C:\Users\leovo\Desktop\study\danpianji\ARM\ARMCC\Bin\..\include\stdio.h

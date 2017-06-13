@@ -5,12 +5,11 @@
 *	说    明 : 将测出的电阻值具体转化为温度
 ******************************************************************/
 #include "LPC11xx.h"                    // Device header
-#include "send.h"
-#include "ADC.h"
-#include"stdio.h"
+#include "calculation.h"
+#include "stdio.h"
 extern uint8_t counter;
-uint16_t  T;
-uint16_t  F;
+float  T;
+float  F;
 char mea[20];
 char sendpc[20];
 void measure()
@@ -19,10 +18,6 @@ void measure()
 	uint32_t ulADCData;
 	uint32_t ulADCBuf;
 	uint32_t res;
-	UART_Init ();
-	ADC_Init();
-	while(1)
-	{
 		ulADCData=0;
 		for(i=0;i<10;i++)
 		{
@@ -34,9 +29,9 @@ void measure()
 			ulADCBuf=(ulADCBuf>>6)&0x3ff;
 			ulADCData+=ulADCBuf;
 		}
-	ulADCData=ulADCData/10;
-	ulADCData=(ulADCData*3300)/1024;	
-	res=(ulADCData*10000)/(3300-ulADCData);
+	   ulADCData=ulADCData/10;
+	   ulADCData=(ulADCData*3300)/1024;	
+	   res=(ulADCData*10000)/(3300-ulADCData);
 		
 			  if (res==28017)
 				T=0  ;
@@ -59,15 +54,11 @@ void measure()
 			if(( 6357>res )&&(res>4828))
 			 T=37+(6357-res)/200;
 			
-			F=37+T*1.8;
-		if(counter>=0)
-			sprintf (mea,"NOW=%.2f'C",T,counter);
+			F=37+T*1.8; 
+		 if(counter==0)
+		sprintf (mea,"NOW=%.2d 'C",(int)T);
 		else
-			sprintf (mea,"NOW=%.2f'F",F,counter);
-		
-		sprintf(sendpc ,"NOW=%fMV\r\n",res);
-		
-		
-
+		sprintf (mea,"NOW=%.2d 'C",(int)F);
+		 
 		}
-	}
+	

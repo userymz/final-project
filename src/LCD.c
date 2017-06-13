@@ -1,5 +1,6 @@
 #include "LPC11xx.h"  // LPC11xxÍâÉè¼Ä´æÆ÷
 #include "string.h"
+#include "LCD.h"
 
 #define LCD_RS_LOW 		LPC_GPIO2->DATA &= ~(1<<0)	//ÃüÁî×´Ì¬Òý½Å
 #define LCD_RS_HIGH		LPC_GPIO2->DATA |=  (1<<0)	//

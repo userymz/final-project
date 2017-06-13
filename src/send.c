@@ -5,7 +5,9 @@
 *	说    明 : 通信发送接收等功能
 ******************************************************************/
 #include "LPC11xx.h" 
-#define UART_BPS 115200
+#include "send.h"
+#define UART_BPS 9600
+
 void UART_Init(void)
 {
 	uint16_t usFdiv;
